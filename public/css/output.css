@@ -39,6 +39,7 @@
     padding: 0;
     border: 0 solid;
   }
+ 
   html, :host {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
@@ -252,6 +253,9 @@
   }
   .w-1 {
     width: var(--spacing);
+  }
+  .w-1\/2 {
+    width: calc(1 / 2 * 100%);
   }
   .w-1\/3 {
     width: calc(1 / 3 * 100%);
