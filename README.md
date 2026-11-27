@@ -9,7 +9,7 @@
 
 #Technologies Used
 1-HTML5
-2-CSS3
+2-CSS3(page login with responsive)
 3-Tailwind CSS
 4-DaisyUI(Component navbar and Speed Dial)(use Speed Dial in page home as ai Assistant  )
 

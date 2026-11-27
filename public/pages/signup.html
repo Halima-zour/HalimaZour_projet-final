@@ -1,88 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="../css/output.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../css/output.css" />
+  </head>
+  <body>
     <header>
-              <div class="navbar font-serif  bg-amber-100 shadow-sm px-[2rem]">
-  <div class="navbar-start">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-      </div>
-      <ul
-        tabindex="-1"
-        class="menu menu-sm dropdown-content  +
-         z-1 mt-3 w-52 p-2 shadow">
-        <li><a href="../../index.html" class="hover">Home</a></li>
-        <li> <a href="./learn.html" class="hover">Learn</a></li>
-        <li><a href="./work.html" class="hover">Work</a></li>
-        
-      </ul>
-    </div>
-    <a href="../../index.html" class=" btn-ghost text-xl">
-         <img src="../images/logo.png"  class=" w-[180px] h-[60px]  max-md:hidden">
-    </a>
-  </div>
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a href="../../index.html" class="hover">Home</a></li>
-      <li><a href="./learn.html"  class="hover">Learn</a></li>
-      <li><a href="./work.html" class="hover">Work</a></li>
-      
-    </ul>
-  </div>
-  <div class="navbar-end flex gap-[1rem] gap-[1rem]  ">
-     <div class=" hover:bg-[#0f4c50] rounded-box  bg-transparent py-[7px] px-[12px]  hover:text-white gap-[2rem]">
-           <a href="../pages/login.html" class="">Log in</a>
-     </div>
-   <div class=" flex gap-[0.5rem] justify-center bg-[#0f4c50] text-white rounded-box  py-[7px] px-[12px]">
-     <a href="../pages/signup.html" >Sign up</a>
-     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-    </svg>
-   </div>
-  </div>
-</div>
-  </header>
-  <main class=" h-[100vh] flex justify-center items-center " style=" background: url('../images/bgsinup.jpg'); background-repeat: no-repeat; background-size: cover;">
-          
-          <div class=" flex flex-col gap-[2rem] lg:border-2  border-black p-[20px] rounded-[5px] max-ms:border-none ">
-             <h1 class=" font-bold font-serif text-[2rem] ">Create your free account</h1>
-               <div class=" flex flex-col gap-[1rem]">
-                <label for="">First name</label>
-                 <input class=" p-[10px] rounded-[5px]" type="text" placeholder=" Your name">
-               </div>
-               <div class=" flex flex-col gap-[1rem]">
-                <label for="">Email address</label>
-                 <input class=" p-[10px] rounded-[5px]" type="text" placeholder=" you@example.com">
-               </div>
-               <div class=" flex flex-col gap-[1rem]">
-                <label for="">Password</label>
-                 <input class=" p-[10px] rounded-[5px]" type="text" placeholder=" password">
-               </div>
-               <div class=" flex flex-col gap-[1rem]">
-                <label for="">Where are you living now?</label>
-                 <input class=" p-[10px] rounded-[5px]" type="text">
-               </div>
-               <div class=" flex gap-[1rem]">
-                  <input type="checkbox">
-                  <p class=" text-[#a46006]">I agree to treat other members with respect and to keep their stories private.</p>
-               </div>
-               <div class=" flex gap-[1rem] items-center bg-[#b14a2e] text-white p-[10px] rounded-[5px] justify-center">
-                  <p>Create my acount</p>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                    </svg>
-               </div>
+      <div class="navbar font-serif bg-amber-100 shadow-sm px-[2rem]">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                aria-label="Menu"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="-1"
+              class="menu menu-sm dropdown-content + z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li><a href="../../index.html" class="hover">Home</a></li>
+              <li><a href="./learn.html" class="hover">Learn</a></li>
+              <li><a href="./work.html" class="hover">Work</a></li>
+            </ul>
           </div>
-
-         
-  </main>
-</body>
+          <a href="../../index.html" class="btn-ghost text-xl">
+            <img
+              src="../images/logo.png"
+              class="w-[180px] h-[60px] max-md:hidden"
+            />
+          </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="../../index.html" class="hover">Home</a></li>
+            <li><a href="./learn.html" class="hover">Learn</a></li>
+            <li><a href="./work.html" class="hover">Work</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end flex gap-[1rem] gap-[1rem]">
+          <div
+            class="hover:bg-[#0f4c50] rounded-box bg-transparent py-[7px] px-[12px] hover:text-white gap-[2rem]"
+          >
+            <a href="../pages/login.html" class="">Log in</a>
+          </div>
+          <div
+            class="flex gap-[0.5rem] justify-center bg-[#0f4c50] text-white rounded-box py-[7px] px-[12px]"
+          >
+            <a href="../pages/signup.html">Sign up</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      class="h-[100vh] flex justify-center items-center"
+      style="
+        background: url(&quot;../images/bgsinup.jpg&quot;);
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div
+        class="flex flex-col gap-[2rem] lg:border-2 border-black p-[20px] rounded-[5px] max-ms:border-none"
+      >
+        <h1 class="font-bold font-serif text-[2rem]">
+          Create your free account
+        </h1>
+        <div class="flex flex-col gap-[1rem]">
+          <label for="">First name</label>
+          <input
+            class="p-[10px] rounded-[5px]"
+            type="text"
+            placeholder=" Your name"
+          />
+        </div>
+        <div class="flex flex-col gap-[1rem]">
+          <label for="">Email address</label>
+          <input
+            class="p-[10px] rounded-[5px]"
+            type="text"
+            placeholder=" you@example.com"
+          />
+        </div>
+        <div class="flex flex-col gap-[1rem]">
+          <label for="">Password</label>
+          <input
+            class="p-[10px] rounded-[5px]"
+            type="text"
+            placeholder=" password"
+          />
+        </div>
+        <div class="flex flex-col gap-[1rem]">
+          <label for="">Where are you living now?</label>
+          <input class="p-[10px] rounded-[5px]" type="text" />
+        </div>
+        <div class="flex gap-[1rem]">
+          <input type="checkbox" />
+          <p class="text-[#a46006]">
+            I agree to treat other members with respect and to keep their
+            stories private.
+          </p>
+        </div>
+        <div
+          class="flex gap-[1rem] items-center bg-[#b14a2e] text-white p-[10px] rounded-[5px] justify-center"
+        >
+          <p>Create my acount</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

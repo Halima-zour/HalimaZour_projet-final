@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA+Guides&display=swap');
 @import "tailwindcss";
+
+
+
+@theme{
+
+  --font-embed: "PlaywriteAU-SAGuides";
+
+}
+
+
+
+
+
