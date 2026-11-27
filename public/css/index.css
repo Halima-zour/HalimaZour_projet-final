@@ -108,3 +108,11 @@
      border-radius: 30px;
     background-color:#f08e73 ;
   }
+  @media (max-width: 440px)  {
+       .main{
+       height: 200vh;
+    display:  flex;
+    flex-direction: column;
+  
+  }
+  }
