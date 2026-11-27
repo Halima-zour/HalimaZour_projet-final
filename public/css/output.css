@@ -202,6 +202,9 @@
   .z-1 {
     z-index: 1;
   }
+  .z-80 {
+    z-index: 80;
+  }
   .col-span-3 {
     grid-column: span 3 / span 3;
   }
@@ -225,6 +228,12 @@
   }
   .h-\[10vh\] {
     height: 10vh;
+  }
+  .h-\[20\] {
+    height: 20;
+  }
+  .h-\[20vh\] {
+    height: 20vh;
   }
   .h-\[40vh\] {
     height: 40vh;
@@ -322,11 +331,17 @@
   .grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+  .grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
   .grid-rows-3 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
   .grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+  .grid-rows-8 {
+    grid-template-rows: repeat(8, minmax(0, 1fr));
   }
   .flex-col {
     flex-direction: column;
@@ -376,11 +391,23 @@
   .gap-\[10rem\] {
     gap: 10rem;
   }
+  .gap-\[20rem\] {
+    gap: 20rem;
+  }
+  .gap-\[22rem\] {
+    gap: 22rem;
+  }
+  .gap-\[23rem\] {
+    gap: 23rem;
+  }
   .gap-\[rem\] {
     gap: rem;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
+  }
+  .rounded-\[\#\] {
+    border-radius: #;
   }
   .rounded-\[5px\] {
     border-radius: 5px;
@@ -437,6 +464,18 @@
   }
   .bg-\[\#0e4b4f\] {
     background-color: #0e4b4f;
+  }
+  .bg-\[\#0f4c50\] {
+    background-color: #0f4c50;
+  }
+  .bg-\[\#78a79c\] {
+    background-color: #78a79c;
+  }
+  .bg-\[\#557c72\] {
+    background-color: #557c72;
+  }
+  .bg-\[\#557c72a3\] {
+    background-color: #557c72a3;
   }
   .bg-\[\#\] {
     background-color: #;
@@ -497,6 +536,12 @@
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
+  }
+  .p-\[5px\] {
+    padding: 5px;
+  }
+  .p-\[10\] {
+    padding: 10;
   }
   .p-\[10px\] {
     padding: 10px;
@@ -629,6 +674,9 @@
   .text-\[\#c9c7c4\] {
     color: #c9c7c4;
   }
+  .text-\[\#cb682e\] {
+    color: #cb682e;
+  }
   .text-\[\#e8d9bd\] {
     color: #e8d9bd;
   }
@@ -656,11 +704,17 @@
   .text-\[\#fcfaf6\] {
     color: #fcfaf6;
   }
+  .text-\[1\.5\] {
+    color: 1.5;
+  }
   .text-\[rem\] {
     color: rem;
   }
   .text-amber-600 {
     color: var(--color-amber-600);
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .text-gray-400 {
     color: var(--color-gray-400);
@@ -750,8 +804,14 @@
     --tw-border-style: none;
     border-style: none;
   }
+  .active\:bg-\[\#557c72\]:active {
+    background-color: #557c72;
+  }
   .active\:bg-\[\#\]:active {
     background-color: #;
+  }
+  .active\:bg-\[\#c\]:active {
+    background-color: #c;
   }
   .active\:bg-\[\#cd5c38\]:active {
     background-color: #cd5c38;

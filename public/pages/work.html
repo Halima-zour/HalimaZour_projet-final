@@ -4,8 +4,426 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/output.css">
 </head>
-<body>
-    
+<body class=" bg-[#fcfaf6]">
+    <header>
+              <div class="navbar font-serif  bg-amber-100 shadow-sm px-[2rem]">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content  +
+         z-1 mt-3 w-52 p-2 shadow">
+        <li><a href="../../index.html" class="hover">Home</a></li>
+        <li> <a href="./learn.html" class="hover">Learn</a></li>
+        <li><a href="./work.html" class="hover">Work</a></li>
+        
+      </ul>
+    </div>
+    <a href="../../index.html" class=" btn-ghost text-xl">
+         <img src="../images/logo.png"  class=" w-[180px] h-[60px]  max-md:hidden">
+    </a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a href="../../index.html" class="hover">Home</a></li>
+      <li><a href="./learn.html"  class="hover">Learn</a></li>
+      <li><a href="./work.html" class="hover">Work</a></li>
+      
+    </ul>
+  </div>
+  <div class="navbar-end flex gap-[1rem]  ">
+     <div class=" hover:bg-[#0f4c50] rounded-box  bg-transparent py-[7px] px-[12px]  hover:text-white gap-[2rem]">
+           <a href="../pages/login.html" class="">Log in</a>
+     </div>
+   <div class=" flex gap-[0.5rem] justify-center bg-[#0f4c50] text-white rounded-box   py-[7px] px-[12px]">
+     <a href="../pages/signup.html" >Sign up</a>
+     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+    </svg>
+   </div>
+  </div>
+</div>
+  </header>
+  <main class=" flex flex-col gap-[3rem]">
+    <section class=" flex justify-center items-center  " style="background:   url('../images/woekwomen.jpg'); background-repeat: no-repeat; background-size:cover; height: 90vh;">
+                 <div class=" w-[50%] flex flex-col gap-[2rem]  ">
+                     <h1 class=" text-[3rem] font-bold font-serif text-[#f6ca80]  "><span class=" text-[#fcfaf6]">Your Skills.</span> Better Opportunities.</h1>
+                       <p class=" text-[#f2e7d6]">A job is more than income — it is a place in the world. Find inclusive roles, prepare a CV that shows what you can really do, or build a small business of your own.</p>
+                        <div class=" flex gap-[3rem]">
+                           <div  class=" btn  p-[10px] bg-[#e5890f] hover:bg-[#ebaf48] border-none">
+                           <a href="">see open Opportuniies</a>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                         </div>
+                        <div class=" btn  p-[10px] border-none w-[30%]">
+                        <a  href="./public/pages/community.html">Prepar my CV</a>
+                         </div>
+                        </div>
+                 <div class=" flex gap-[7rem]">
+                        <div class=" border-t-1 border-t-[#f9f7e2] w-[30%]">
+                            <h1 class=" text-[2rem] italic text-[#fcfaf6]" >2,900</h1>
+                            <p class="text-[#e8d9bd]  font-serif" > women placed in work</p>
+                        </div>
+                        <div class="border-t-1 border-t-[#f9f7e2] w-[30%]">
+                            <h1 class=" text-[2rem] italic text-[#fcfaf6] ">380</h1>
+                            <p class="text-[#e8d9bd] font-serif">inclusive employers</p>
+                        </div>
+                        <div class="border-t-1 border-t-[#f9f7e2] w-[30%]">
+                            <h1 class=" text-[2rem] italic text-[#fcfaf6] ">61%</h1>
+                            <p class=" text-[#e8d9bd] font-serif"> remote or self-employed </p>
+                        </div>
+                    </div>
+                 </div>
+         </section>
+         <section class=" flex flex-col  pl-[10rem]  font-serif gap-[2rem] w-[90%]">
+              <div class=" flex flex-col  gap-[2rem] w-[90%]">
+                  <h1 class="text-[3rem] font-serif">Roles that welcome women starting again.</h1>
+             <div class="flex flex-col gap-[1rem] ">
+                <div class=" flex items-center gap-[1rem] p-[10px] active:outline-1 active:outline-[#ea8b6a]  w-[50%] border-1 rounded-[5px] border-gray-300 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                            </svg>
+                            <input class="border-none w-full border-none outline-none"  type="text" placeholder=" search by topic">
+                </div>
+                <div class="flex gap-[2rem]">
+                    <a class="bg-[#557c72] text-white rounded-[20px] border-1 border-gray-300 p-[10px]" href="">All opportunities</a>
+                    <a class=" active:bg-[#557c72] active:text-white rounded-[20px] border-1 border-gray-300 p-[10px]" href="">Jobs</a>
+                    <a class=" active:bg-[#557c72] active:text-white rounded-[20px] border-1 border-gray-300 p-[10px]" href=""> Remote work</a>
+                    <a class=" active:bg-[#557c72] active:text-white rounded-[20px] border-1 border-gray-300 p-[10px]" href="">Interships and training</a>
+
+                 </div>
+             </div>
+              </div>
+             <div class=" w-full grid grid-rows-2 gap-[1rem] ">
+                  <div class=" flex justify-between border-1 text-gray-600 p-[20px] hover:border-[#fab49a] rounded-[10px] border-gray-300">
+                     <div class="flex flex-col justify-center gap-[1rem]">
+                        <div class="flex items-center gap-[1rem]">
+                          <div class="flex items-center bg-[#557c72a3] p-[10px] rounded-[5px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                          </svg>
+                            <p>Remote</p>
+                          </div>
+                          <p>Full time · 2 days ago</p>
+                        </div>
+                        <div>
+                          <h1 class=" font-bold text-black text-[1.5rem]">Customer support agent (Arabic)</h1>
+                          <p>Remote Sisters · Remote · Middle East</p>
+                        </div> 
+                        <p>Answer customer messages by chat and email for a small online store. Training provided, equipment shipped to you.</p>
+                        <div class=" flex gap-[1rem]">
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Arabic</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Customer service</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">No degree needed</p>
+                        </div>
+                     </div>
+                     <div class=" flex flex-col justify-center gap-[1rem]">
+                      <p class=" text-[#cb682e]">USD 700 - 900 / month</p>
+                      <div class=" flex gap-[1rem] items-center bg-[#cd5c38] rounded-[5px] p-[10px] text-white">
+                        <a href="">Apply with CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                      </div>
+                      <div class=" p-[10px]  flex justify-center gap-[0.5rem] border-1 border-gray-300 rounded-[5px]  items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        <a href="">Save</a>
+                      </div>
+                     </div>
+                  </div>
+                  <div class=" flex justify-between border-1 text-gray-600 p-[20px] hover:border-[#fab49a] rounded-[10px] border-gray-300">
+                            <div class="flex flex-col justify-center gap-[1rem]">
+                        <div class="flex items-center gap-[1rem]">
+                          <div class="flex items-center bg-[#557c72a3] p-[10px] rounded-[5px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                          </svg>
+                            <p>Remote</p>
+                          </div>
+                          <p>Full time · 2 days ago</p>
+                        </div>
+                        <div>
+                          <h1 class=" font-bold text-black text-[1.5rem]">Customer support agent (Arabic)</h1>
+                          <p>Remote Sisters · Remote · Middle East</p>
+                        </div> 
+                        <p>Answer customer messages by chat and email for a small online store. Training provided, equipment shipped to you.</p>
+                        <div class=" flex gap-[1rem]">
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Arabic</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Customer service</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">No degree needed</p>
+                        </div>
+                     </div>
+                     <div class=" flex flex-col justify-center gap-[1rem]">
+                      <p class=" text-[#cb682e]">USD 700 - 900 / month</p>
+                      <div class=" flex gap-[1rem] items-center bg-[#cd5c38] rounded-[5px] p-[10px] text-white">
+                        <a href="">Apply with CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                      </div>
+                      <div class=" p-[10px]  flex justify-center gap-[0.5rem] border-1 border-gray-300 rounded-[5px]  items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        <a href="">Save</a>
+                      </div>
+                     </div>
+                  </div>
+                  </div>
+                  <div class=" flex justify-between border-1 text-gray-600 p-[20px] hover:border-[#fab49a] rounded-[10px] border-gray-300">
+                        <div class="flex flex-col justify-center gap-[1rem]">
+                        <div class="flex items-center gap-[1rem]">
+                          <div class="flex items-center bg-[#557c72a3] p-[10px] rounded-[5px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                          </svg>
+                            <p>Remote</p>
+                          </div>
+                          <p>Full time · 2 days ago</p>
+                        </div>
+                        <div>
+                          <h1 class=" font-bold text-black text-[1.5rem]">Customer support agent (Arabic)</h1>
+                          <p>Remote Sisters · Remote · Middle East</p>
+                        </div> 
+                        <p>Answer customer messages by chat and email for a small online store. Training provided, equipment shipped to you.</p>
+                        <div class=" flex gap-[1rem]">
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Arabic</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Customer service</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">No degree needed</p>
+                        </div>
+                     </div>
+                     <div class=" flex flex-col justify-center gap-[1rem]">
+                      <p class=" text-[#cb682e]">USD 700 - 900 / month</p>
+                      <div class=" flex gap-[1rem] items-center bg-[#cd5c38] rounded-[5px] p-[10px] text-white">
+                        <a href="">Apply with CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                      </div>
+                      <div class=" p-[10px]  flex justify-center gap-[0.5rem] border-1 border-gray-300 rounded-[5px]  items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        <a href="">Save</a>
+                      </div>
+                     </div>
+                  </div>
+                  </div>
+                  <div class=" flex justify-between border-1 text-gray-600 p-[20px] hover:border-[#fab49a] rounded-[10px] border-gray-300">
+                        <div class="flex flex-col justify-center gap-[1rem]">
+                        <div class="flex items-center gap-[1rem]">
+                          <div class="flex items-center bg-[#557c72a3] p-[10px] rounded-[5px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                          </svg>
+                            <p>Remote</p>
+                          </div>
+                          <p>Full time · 2 days ago</p>
+                        </div>
+                        <div>
+                          <h1 class=" font-bold text-black text-[1.5rem]">Customer support agent (Arabic)</h1>
+                          <p>Remote Sisters · Remote · Middle East</p>
+                        </div> 
+                        <p>Answer customer messages by chat and email for a small online store. Training provided, equipment shipped to you.</p>
+                        <div class=" flex gap-[1rem]">
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Arabic</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Customer service</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">No degree needed</p>
+                        </div>
+                     </div>
+                     <div class=" flex flex-col justify-center gap-[1rem]">
+                      <p class=" text-[#cb682e]">USD 700 - 900 / month</p>
+                      <div class=" flex gap-[1rem] items-center bg-[#cd5c38] rounded-[5px] p-[10px] text-white">
+                        <a href="">Apply with CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                      </div>
+                      <div class=" p-[10px]  flex justify-center gap-[0.5rem] border-1 border-gray-300 rounded-[5px]  items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        <a href="">Save</a>
+                      </div>
+                     </div>
+                  </div>
+                  </div>
+                  <div class=" flex justify-between border-1 text-gray-600 p-[20px] hover:border-[#fab49a] rounded-[10px] border-gray-300">
+                        <div class="flex flex-col justify-center gap-[1rem]">
+                        <div class="flex items-center gap-[1rem]">
+                          <div class="flex items-center bg-[#557c72a3] p-[10px] rounded-[5px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                          </svg>
+                            <p>Remote</p>
+                          </div>
+                          <p>Full time · 2 days ago</p>
+                        </div>
+                        <div>
+                          <h1 class=" font-bold text-black text-[1.5rem]">Customer support agent (Arabic)</h1>
+                          <p>Remote Sisters · Remote · Middle East</p>
+                        </div> 
+                        <p>Answer customer messages by chat and email for a small online store. Training provided, equipment shipped to you.</p>
+                        <div class=" flex gap-[1rem]">
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Arabic</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Customer service</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">No degree needed</p>
+                        </div>
+                     </div>
+                     <div class=" flex flex-col justify-center gap-[1rem]">
+                      <p class=" text-[#cb682e]">USD 700 - 900 / month</p>
+                      <div class=" flex gap-[1rem] items-center bg-[#cd5c38] rounded-[5px] p-[10px] text-white">
+                        <a href="">Apply with CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                      </div>
+                      <div class=" p-[10px]  flex justify-center gap-[0.5rem] border-1 border-gray-300 rounded-[5px]  items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        <a href="">Save</a>
+                      </div>
+                     </div>
+                  </div>
+                  </div>
+                  <div class=" flex justify-between border-1 text-gray-600 p-[20px] hover:border-[#fab49a] rounded-[10px] border-gray-300">
+                            <div class="flex flex-col justify-center gap-[1rem]">
+                        <div class="flex items-center gap-[1rem]">
+                          <div class="flex items-center bg-[#557c72a3] p-[10px] rounded-[5px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                          </svg>
+                            <p>Remote</p>
+                          </div>
+                          <p>Full time · 2 days ago</p>
+                        </div>
+                        <div>
+                          <h1 class=" font-bold text-black text-[1.5rem]">Customer support agent (Arabic)</h1>
+                          <p>Remote Sisters · Remote · Middle East</p>
+                        </div> 
+                        <p>Answer customer messages by chat and email for a small online store. Training provided, equipment shipped to you.</p>
+                        <div class=" flex gap-[1rem]">
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Arabic</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Customer service</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">No degree needed</p>
+                        </div>
+                     </div>
+                     <div class=" flex flex-col justify-center gap-[1rem]">
+                      <p class=" text-[#cb682e]">USD 700 - 900 / month</p>
+                      <div class=" flex gap-[1rem] items-center bg-[#cd5c38] rounded-[5px] p-[10px] text-white">
+                        <a href="">Apply with CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                      </div>
+                      <div class=" p-[10px]  flex justify-center gap-[0.5rem] border-1 border-gray-300 rounded-[5px]  items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        <a href="">Save</a>
+                      </div>
+                     </div>
+                  </div>
+                  </div>
+                  <div class=" flex justify-between border-1 text-gray-600 p-[20px] hover:border-[#fab49a] rounded-[10px] border-gray-300">
+                        <div class="flex flex-col justify-center gap-[1rem]">
+                        <div class="flex items-center gap-[1rem]">
+                          <div class="flex items-center bg-[#557c72a3] p-[10px] rounded-[5px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                          </svg>
+                            <p>Remote</p>
+                          </div>
+                          <p>Full time · 2 days ago</p>
+                        </div>
+                        <div>
+                          <h1 class=" font-bold text-black text-[1.5rem]">Customer support agent (Arabic)</h1>
+                          <p>Remote Sisters · Remote · Middle East</p>
+                        </div> 
+                        <p>Answer customer messages by chat and email for a small online store. Training provided, equipment shipped to you.</p>
+                        <div class=" flex gap-[1rem]">
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Arabic</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Customer service</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">No degree needed</p>
+                        </div>
+                     </div>
+                     <div class=" flex flex-col justify-center gap-[1rem]">
+                      <p class=" text-[#cb682e]">USD 700 - 900 / month</p>
+                      <div class=" flex gap-[1rem] items-center bg-[#cd5c38] rounded-[5px] p-[10px] text-white">
+                        <a href="">Apply with CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                      </div>
+                      <div class=" p-[10px]  flex justify-center gap-[0.5rem] border-1 border-gray-300 rounded-[5px]  items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        <a href="">Save</a>
+                      </div>
+                     </div>
+                  </div>
+                  </div>
+                  <div class=" flex justify-between border-1 text-gray-600 p-[20px] hover:border-[#fab49a] rounded-[10px] border-gray-300">
+                          <div class="flex flex-col justify-center gap-[1rem]">
+                        <div class="flex items-center gap-[1rem]">
+                          <div class="flex items-center bg-[#557c72a3] p-[10px] rounded-[5px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                          </svg>
+                            <p>Remote</p>
+                          </div>
+                          <p>Full time · 2 days ago</p>
+                        </div>
+                        <div>
+                          <h1 class=" font-bold text-black text-[1.5rem]">Customer support agent (Arabic)</h1>
+                          <p>Remote Sisters · Remote · Middle East</p>
+                        </div> 
+                        <p>Answer customer messages by chat and email for a small online store. Training provided, equipment shipped to you.</p>
+                        <div class=" flex gap-[1rem]">
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Arabic</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">Customer service</p>
+                          <p class=" bg-[#f7f3ec] p-[5px] rounded-[10px]">No degree needed</p>
+                        </div>
+                     </div>
+                     <div class=" flex flex-col justify-center gap-[1rem]">
+                      <p class=" text-[#cb682e]">USD 700 - 900 / month</p>
+                      <div class=" flex gap-[1rem] items-center bg-[#cd5c38] rounded-[5px] p-[10px] text-white">
+                        <a href="">Apply with CV</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                         </svg>
+                      </div>
+                      <div class=" p-[10px]  flex justify-center gap-[0.5rem] border-1 border-gray-300 rounded-[5px]  items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        <a href="">Save</a>
+                      </div>
+                     </div>
+                  </div>
+                  </div>
+             </div>
+         </section>
+  </main>
+  
 </body>
 </html>
